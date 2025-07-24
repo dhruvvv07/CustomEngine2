@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title> CustomEngine FASHION</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__header">
+        <div class="nav__logo">
+          <a href="#">CustomEngine</a>
+        </div>
+        <div class="nav__menu__btn" id="menu-btn">
+          <i class="ri-menu-line"></i>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#catalogue">CATALOGUE</a></li>
+        <li><a href="#brands">BRANDS</a></li>
+        <li><a href="#favourites">FAVOURITES</a></li>
+        <li><a href="#lifestyle">CUSTOMIZE</a></li>
+        <li><a href="#design">DESIGN</a></li>
+        <li>
+          <button class="btn">SIGN UP</button>
+        </li>
+      </ul>
+    </nav>
+    <header>
+      <div class="section__container header__container">
+        <div class="header__content">
+          <h1>
+            <span>LET'S</span>
+            <br />
+            EXPLORE
+            <br />
+            <span>UNIQUE</span>
+            <br />
+            STYLES.
+          </h1>
+          <p>Customize Your Own Clothes</p>
+          <div class="header__btns">
+            <button class="btn">Shop Now</button>
+          </div>
+        </div>
+        <div class="header__image">
+          <img src="assets/header.png" alt="header" />
+        </div>
+      </div>
+    </header>
+
+    
+    </section>
+    </button>
+      <div class="section__container sale__container">
+        <div class="sale__image">
+          <img id="originals" src="assets/original.png" alt="sale" />
+        </div>
+        <div class="sale__content">
+          <h2 class="brand-name" aria-label="H&amp;M">Men's Regular Fit Shirt</h2>
+          <!-- Sizing Options -->
+          <p>Select Size:</p>
+          <div class="size-options">
+              <button class="size-btn" onclick="selectSize('S')">S</button>
+              <button class="size-btn" onclick="selectSize('M')">M</button>
+              <button class="size-btn" onclick="selectSize('L')">L</button>
+              <button class="size-btn" onclick="selectSize('XL')">XL</button>
+          </div>
+          <p>&nbsp</p>
+
+          <!-- Color Options -->
+          <p>Select Color:</p>
+          <div class="color-options">
+              <button class="color-btn" style="background-color: blue;" onclick="selectColor('Blue')"></button>
+              <button class="color-btn" style="background-color: #d2b48c;" onclick="selectColor('White')"></button>
+              <button class="color-btn" style="background-color: black;" onclick="selectColor('Black')"></button>
+              <button class="color-btn" style="background-color: gray;" onclick="selectColor('Grey')"></button>
+          </div>
+          <p>&nbsp</p>
+
+          <!-- Shirt Button Color Options -->
+          <p>Select Shirt Button Color:</p>
+          <div class="button-color-options">
+              <button class="color-btn" style="background-color: black;" onclick="selectButtonColor('Black')"></button>
+              <button class="color-btn" style="background-color: #d2b48c;" onclick="selectButtonColor('White')"></button>
+              <button class="color-btn" style="background-color: gold;" onclick="selectButtonColor('Gold')"></button>
+              <button class="color-btn" style="background-color: silver;" onclick="selectButtonColor('Silver')"></button>
+          </div>
+          <p>&nbsp</p>
+
+          <!-- Collar Type Options -->
+          <p>Select Collar Type:</p>
+          <div class="collar-options">
+              <button class="collar-btn" onclick="selectCollarType('Classic')">Classic</button>
+              <button class="collar-btn" onclick="selectCollarType('Mandarin')">Mandarin</button>
+              <button class="collar-btn" onclick="selectCollarType('Button-down')">Button-down</button>
+              <button class="collar-btn" onclick="selectCollarType('Spread')">Spread</button>
+          </div>
+          <p>&nbsp</p>
+          <h4>CustomEngine</h4>
+          <div class="ai__btn">
+            <!-- AI button removed from here -->
+          </div>
+
+          <div class="thumbnails">
+            <img src="shirt2.png" alt="Thumbnail 1" class="thumbnail" data-large="shirt2.png" onclick="changeImage('shirt2.png')">
+            <img src="shirt3.png" alt="Thumbnail 2" class="thumbnail" data-large="shirt3.png" onclick="changeImage('shirt3.png')">
+            <img src="shirt4.png" alt="Thumbnail 3" class="thumbnail" data-large="shirt4.png" onclick="changeImage('shirt4.png')">
+            <img src="shirt5.png" alt="Thumbnail 4" class="thumbnail" data-large="shirt5.png" onclick="changeImage('shirt5.png')">
+            <img src="original.png" alt="Thumbnail 5" class="thumbnail" data-large="original.png" onclick="changeImage('original.png')">
+            <img src="shirt1.png" alt="Thumbnail 6" class="thumbnail" data-large="shirt1.png" onclick="changeImage('shirt1.png')">
+            <img src="shirt6.png" alt="Thumbnail 7" class="thumbnail" data-large="shirt6.png" onclick="changeImage('shirt6.png')">
+          
+          </div>
+          <div style="height: 48px;"></div> <!-- Add vertical gap where Shop Now button was -->
+        </div>
+      </div>
+    </section>
+
+    <!-- AI Customization Section -->
+    <section class="ai-marketing-section">
+      <div class="section__container ai-marketing-container">
+        <h2 class="ai-marketing-header">Next-Gen AI Outfit Designer</h2>
+        <p class="ai-marketing-text">
+          Unleash your creativity! Describe your dream outfit in your own words and let our advanced AI generate a unique design just for you. Whether you want something classic, trendy, or totally out-of-the-box, our AI can bring your vision to life instantly. <br><br>
+          <strong>Try it now and experience the future of fashion customization!</strong>
+        </p>
+        <div class="ai__btn">
+          <a href="ai.html" class="btn ai-marketing-btn">Customize with AI</a>
+        </div>
+      </div>
+    </section>
+
+   
+    </section>
+
+    <section class="promo">
+      <div class="section__container promo__container">
+        <h2 class="section__header">
+          "Be the designer of your outfit"
+        </h2>
+        <p>Type your email down below...</p>
+        <form action="/">
+          <input type="text" placeholder="Add your email here" />
+          <button class="btn">SEND</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <div class="footer__logo">
+            <a href="#">CustomEngine™</a>
+          </div>
+          <p>Express your UnIqUe style perfectly.</p>
+          <ul class="footer__socials">
+            <li>
+              <a href="#"><i class="ri-facebook-fill"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-instagram-line"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-twitter-fill"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-linkedin-fill"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Company</h4>
+          <ul class="footer__links">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Support</a></li>
+            <li><a href="#">Careers</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Quick Links</h4>
+          <ul class="footer__links">
+            <li><a href="#">Couture</a></li>
+            <li><a href="#">Order Tracking</a></li>
+            <li><a href="#">Size Guide</a></li>
+            <li><a href="#">FAQs</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Legal</h4>
+          <ul class="footer__links">
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2024 CUSTOM ENGINE CustomEngine™. All rights reserved.
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
